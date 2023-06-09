@@ -2,18 +2,19 @@
 {
     padding:1px 10px;
      position: fixed; 
-    width:100%;
+     width:100%;
      top:0px; 
     left:0px; 
-    background-color:rgb(44, 43, 43);
-    border: 2px solid black;
+    background-color:rgb(6, 75, 112);
+    /* border: 2px solid black; */
+    
    
 }
 .titleimage
 {
     width:60px;
     height:60px;
-    margin-left:100px;
+    margin-left:43px;
     border-radius: 50%;
    
 }
@@ -23,14 +24,14 @@
 }
 .title
 {
-    margin-left:600px;
+    margin-left:635px;
     margin-top:22px;
     font-size:15px;
 }
 .text
 {
-    margin-left:40px;
-    color:white;
+    margin-left:60px;
+    color:rgb(220, 220, 4)
 }
 .margin
 {
@@ -39,10 +40,11 @@
 .imagesize
 {
     
-    width:100%;
+    width:92%;
     height:650px;
-   
-    margin-top:10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top:15px;
 }
 .image
 {
@@ -91,16 +93,17 @@
    
     margin-top:100px;
     background-color: white;
-    width:630px;
+    width:645px;
     height:250px;
     position: absolute;
     top:790px;
-    left:675px;
+    left:630px;
+    border: 2px solid black;
     
 }
 .without
 {
-    margin-left: 200px;
+    margin-left: 50px;
     font-size: 20px;
     color: brown;
     margin-bottom: -10px;
@@ -111,30 +114,34 @@
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 20px;
-    margin-right: 5px;
+    margin-right: 20px;
     line-height: 30px; 
+    border: 2px solid black;
 }
 .border1
 {
     width:700px;
     margin-top:100px;
-    margin-left: 60px;
-    height:280px;
+    margin-left: 30px;
+    height:250px;
     position: absolute;
     top:1250px;
     left:80px;
     background-color: white;
+    border: 2px solid black;
+   
    
 }
 .text2
 {
    
-    margin-left: 1px;
+    margin-left: 20px;
     margin-top: 20px;
     font-size: 20px;
-    margin-right: 5px;
+    margin-right: 20px;
     margin-bottom: 40px;
     line-height: 30px;
+    border: 2px solid black;
    
    
 }
@@ -151,6 +158,8 @@
     
     padding:10px 10px;
     background-color:aliceblue;
+    margin-top:10px;
+    margin-bottom: 10px;
 }
 .catagory
 {
@@ -160,4 +169,48 @@
     margin:10px 560px 10px 560px;
     border-radius: 30px;
     background-color: lavender	;
+}
+.flex1
+{
+    padding:10px 10px;
+    border:2px solid black;
+    margin-left:50px;
+    margin-right: 50px;
+   
+
+}
+.classes
+{
+    width:200px;
+    height:100px;
+    border:2px solid black;
+    margin-left: 50px;
+    margin-top:20px;
+    font-family: 30px;
+    width:250px;
+    height:150px;
+    background:linear-gradient(to right ,rgb(4, 4, 110),blue,darkblue) ;
+}
+.Material
+{
+    padding:10px 10px;
+    border:2px solid black;
+    margin-left:20px;
+}
+.assignments
+{
+    padding:10px 10px;
+    border:2px solid black;
+}
+.totalbox
+{
+    margin-left:20px;
+    border:2px solid black;
+    display:flex;
+}
+.video
+{
+    font-size:25px;
+    margin-top:40px;
+  
 }

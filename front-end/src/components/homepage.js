@@ -17,8 +17,9 @@ function Homepage()
                 </div>
            </nav>
            <div className="margin">
-          
-             <img className="imagesize" src="resources/photo3.jpeg" alt="image"/>
+            <div classname="flex">
+             <img className="imagesize" src="resources/a.jpeg" alt="image"/>
+             </div>
              <button className="box">LEARN MORE</button>
            </div>
            <div className="website">
@@ -34,12 +35,30 @@ function Homepage()
             <div className="flex">
                 <div className="border1">
                 <div className="without"><b>Importance Of Education</b></div>
-                    <p className="text2">Empowerment and Individual Development: Education equips women with knowledge, skills, and critical thinking abilities, enabling them to make informed decisions about their lives, health, and well-being. It enhances their self-confidence, self-esteem, and agency, enabling them to actively participate in social, economic, and political spheres.Gender Equality: Education is a powerful tool for challenging </p>
+                    <p className="text2">Empowerment and Individual Development: Education equips
+                     women with knowledge, skills, and critical thinking abilities, enabling them 
+                     to make informed decisions about their lives, health, and well-being. It enhances
+                      their self-confidence, self-esteem, and agency, enabling them to actively 
+                      participate in social, economic, and political spheres.Gender Equality: Education 
+                      is a powerful tool for challenging </p>
                 </div>
                 <img className="size1" src="resources/Untitled.jpeg" alt="image"/>
             </div>
             <div className="divTag">
                 <div className="catagory"><b>Select Your Category</b></div>
+            </div>
+            <div className="flex1">
+                <div className="totalbox">
+                    <div className="classes">
+                        <div className="video"><b>Videos</b></div>                
+                    </div>
+                    <div className="Material">
+                        <div className=""><b></b></div>
+                    </div>
+                    <div className="assignments">
+                        <img className="classsize" src="resources/blue.jpg" alt="image" />   
+                 </div>
+                 </div>
             </div>
             </div>
     )
