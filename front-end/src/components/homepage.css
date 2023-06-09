@@ -1,0 +1,163 @@
+.navbar
+{
+    padding:1px 10px;
+     position: fixed; 
+    width:100%;
+     top:0px; 
+    left:0px; 
+    background-color:rgb(44, 43, 43);
+    border: 2px solid black;
+   
+}
+.titleimage
+{
+    width:60px;
+    height:60px;
+    margin-left:100px;
+    border-radius: 50%;
+   
+}
+.display
+{
+    display:flex;
+}
+.title
+{
+    margin-left:600px;
+    margin-top:22px;
+    font-size:15px;
+}
+.text
+{
+    margin-left:40px;
+    color:white;
+}
+.margin
+{
+    margin-top:50px;
+}
+.imagesize
+{
+    
+    width:100%;
+    height:650px;
+   
+    margin-top:10px;
+}
+.image
+{
+    margin-left:1000px;
+   
+}
+.box
+{
+    position: absolute;
+    top:500px;
+    left:130px;
+    width:150px;
+    height:40px;  
+    border-radius: 5px; 
+}
+.website
+{
+    padding:10px 10px;
+    background-color: aliceblue;
+}
+.about
+{
+    padding:10px 10px;
+    background-color:lavender;
+    margin:10px 600px 10px 600px;
+    text-align: center;
+    border-radius: 30px;
+}
+.size
+{
+    width:600px;
+    height:350px;
+    margin-left:1px;
+    margin-top: 50px;
+
+}
+.flex
+{
+    display:flex;
+    /* border:2px solid black; */
+    margin-left:120px;
+    margin-right: 120px;
+}
+.border
+{
+   
+    margin-top:100px;
+    background-color: white;
+    width:630px;
+    height:250px;
+    position: absolute;
+    top:790px;
+    left:675px;
+    
+}
+.without
+{
+    margin-left: 200px;
+    font-size: 20px;
+    color: brown;
+    margin-bottom: -10px;
+}
+.text1
+{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    line-height: 30px; 
+}
+.border1
+{
+    width:700px;
+    margin-top:100px;
+    margin-left: 60px;
+    height:280px;
+    position: absolute;
+    top:1250px;
+    left:80px;
+    background-color: white;
+   
+}
+.text2
+{
+   
+    margin-left: 1px;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-bottom: 40px;
+    line-height: 30px;
+   
+   
+}
+.size1
+{
+    width:630px;
+    height:360px;
+    margin-left:600px;
+    margin-top: 90px;
+    
+}
+.divTag
+{
+    
+    padding:10px 10px;
+    background-color:aliceblue;
+}
+.catagory
+{
+    /* border:2px solid black; */
+    padding:10px 10px;
+    text-align: center;
+    margin:10px 560px 10px 560px;
+    border-radius: 30px;
+    background-color: lavender	;
+}

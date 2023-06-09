@@ -1,0 +1,59 @@
+body
+{
+    background-color:rgb(114, 212, 201) ;
+}
+.forgotpage
+{
+    padding:10px 10px;
+    margin:100px 550px 50px 550px;
+    border-radius: 30px;
+    background-color:white ; 
+}
+.size
+{
+    width:110px;
+    height:110px;
+    margin-left:120px;
+    border-radius: 50%;
+}
+.margin
+{
+   
+    margin-top:10px;
+    margin-bottom: 10px;
+    
+}
+.title
+{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+}
+input
+{
+    display:flex;
+    flex-wrap: wrap;
+    font-size:14px;
+    padding:8px 10px;
+    border-radius: 10px;
+    margin-bottom:15px;
+    width:280px;
+    margin-left:10px;
+    margin-top: 30px;
+   
+}
+.button
+{
+width:150px;
+height:35px;
+border-radius: 30px;
+margin-left:100px;
+margin-top:2px;
+margin-bottom: 10px;
+
+}
+.login
+{
+   
+    margin-left:270px;
+}
