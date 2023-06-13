@@ -4,14 +4,16 @@ function Login()
 {
     return(
         <div>
+           <div class="flex">
+                <div className="a">
+                    <img className="loginimg" src="resources/educate.jpg" alt="" />
+                </div>
             
             <div className='loginpage'>
                 <img className='size' src ="resources/login.png" alt="image" />
                 <div className='title'><b>Login</b></div>
                 <div className='margin'>
-                    <div className='text'><b>Username</b></div>
                     <input type="text" placeholder="Username" />
-                    <div className='text'><b>Password</b></div>
                     <input type="password" placeholder="Password" />
                     <button className='button'>Login</button>
                     <div className='pass'>
@@ -26,6 +28,7 @@ function Login()
                             <img className='imagesize' src="resources/twitter.png" alt="image" />
                             <img className='imagesize' src="resources/facebook.png" alt="image" />
                         </div>
+                    </div>
                     </div>
                 </div>
                

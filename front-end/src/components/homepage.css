@@ -43,7 +43,10 @@
 }
 .image
 {
-    margin-left:1000px;
+   
+    width:590px;
+    height:350px;
+    border-radius: 5px;
 }
 .box
 {
@@ -58,6 +61,7 @@
 {
     padding:10px 10px;
     background-color: aliceblue;
+    margin-top:20px;
 }
 .about
 {
@@ -77,18 +81,16 @@
 .flex
 {
     display:flex;
-    margin-left:120px;
-    margin-right: 120px;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 10px;
+    border-radius: 50px;
+    background-color: rgb(223, 234, 243);
 }
-.border
+.homepage
 {
-    margin-top:100px;
-    background-color: white;
-    width:645px;
-    height:250px;
-    position: absolute;
-    top:790px;
-    left:630px;
+    padding:10px 10px ;
+    margin-top: 20px;
 }
 .without
 {
@@ -96,35 +98,6 @@
     font-size: 20px;
     color: brown;
     margin-bottom: -10px;
-}
-.text1
-{
-    font-size: 20px;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    line-height: 30px; 
-}
-.border1
-{
-    width:700px;
-    margin-top:100px;
-    margin-left: 30px;
-    height:250px;
-    position: absolute;
-    top:1250px;
-    left:80px;
-    background-color: white;
-}
-.text2
-{
-    margin-left: 20px;
-    margin-top: 20px;
-    font-size: 20px;
-    margin-right: 20px;
-    margin-bottom: 40px;
-    line-height: 30px;
 }
 .size1
 {
@@ -148,6 +121,19 @@
     border-radius: 30px;
     background-color: lavender	;
 }
+.a
+{
+    /* border:2px solid black; */
+    padding:10px 10px;
+    width:700px;
+    height:350px;
+}
+.text1
+{ 
+    font-size:20px;
+    line-height: 35px;
+    width:690px;
+}
 .flex1
 {
     padding:10px 10px;
@@ -156,27 +142,34 @@
 }
 .classes
 {
-    width:200px;
-    height:100px;
-    margin-left: 50px;
-    margin-top:20px;
-    font-family: 30px;
-    width:250px;
-    height:150px;
+    width:300px;
+    height:300px;
+   
+    margin-left:150px;
+    background-color: rgb(164, 243, 205);
 }
 .videosize
 {
-    width:250px;
-    height:150px;
+    width:280px;
+    height:200px;
+    margin-top:10px;
 }
 .Material
 {
-    padding:10px 10px;
-    margin-left:20px;
+    width:300px;
+    height:300px;
+   
+    margin-left:30px;
+    background-color: rgb(164, 243, 205);
+   
 }
-.assignments
+.Assignment
 {
-    padding:10px 10px;
+    width:300px;
+    height:300px;
+   
+    margin-left:30px;
+    background-color: rgb(164, 243, 205);
 }
 .totalbox
 {
@@ -187,4 +180,42 @@
 {
     font-size: 20px;
     padding:10px 10px;
+}
+.education
+{
+    position: absolute; 
+    top:160px;  
+    left:100px; 
+    font-size: 28px;
+    line-height: 40px;
+    color:white;
+}
+.education1
+{
+    position: absolute; 
+    top:200px;  
+    left:100px; 
+    font-size: 28px;
+    line-height: 40px;
+    color:white;  
+}
+.classsize
+{
+    margin-top: 10px;
+    width:280px;
+    height:200px;
+    
+}
+.footer
+{
+    padding:10px 10px;
+    border:2px solid black;
+    margin-top:20px;
+}
+.titleimage1
+{
+    width:60px;
+    height:60px;
+    margin-left:-100px;
+    border-radius: 50%;
 }

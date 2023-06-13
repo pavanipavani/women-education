@@ -1,25 +1,36 @@
 body
 {
-    background-color:rgb(114, 212, 201) ;
+    background-color:rgb(136, 101, 3) ;
 }
 .loginpage
 {
-    padding:10px 10px;
-    margin:100px 550px 10px 550px;
-    border-radius:50px;
-    background-color:white;  
+    padding:50px 10px;
+    background-color:rgb(122, 146, 66);
+    height:400px;
+    margin-top: 10px;
+    margin-left: px;   
+    width:350px;
+}
+.flex
+{
+    margin:100px 290px 10px 290px;
+    display:flex; 
+}
+.a
+{
+    padding:10px 1px;
 }
 .size
 {
-    width:110px;
-    height:110px;
-    margin-left:115px;
+    width:100px;
+    height:100px;
+   
     border-radius: 50%;
 }
 .title
 {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 .text
 {
@@ -35,21 +46,24 @@ body
 input
 {
     padding:8px 10px;
-    margin-left:15px;
-    width:280px;
+    margin-left:5px;
+    width:250px;
     border-radius: 10px;
+    margin-top: 10px;
 }
 .button
 {
     width:150px;
     height:35px;
     border-radius: 30px;
-    margin-left:100px;
+    margin-left:10px;
     margin-top:10px;
+    background-color:rgb(120, 89, 4) ;
 }
+
 .pass
 {
-    margin-left: 15px;
+    margin-left: 10px;
     margin-top: 20px;
 }
 .forgot
@@ -58,12 +72,12 @@ input
 }
 .user
 {
-    margin-left: 190px;
-    margin-top: -18px;
+    margin-left: 130px;
+    margin-top: 10px;
 }
 .connect
 {
-    margin-left: 70px;
+    margin-left: 10px;
     font-size: 15px;
     margin-top:10px;
     color:brown;
@@ -74,11 +88,16 @@ input
     margin-left: 20px;
     margin-top: 20px;
 }
+.loginimg
+{
+    width:500px;
+    height:500px;
+}
 .imagesize
 {
-    width:40px;
-    height:40px;
-    margin-left: 25px;
+    width:30px;
+    height:30px;
+    margin-left: 40px;
 }
 
 

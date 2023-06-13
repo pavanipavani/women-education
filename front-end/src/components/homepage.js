@@ -17,33 +17,33 @@ function Homepage()
                 </div>
            </nav>
            <div className="margin">
-            <div classname="flex">
-             <img className="imagesize" src="resources/a.jpeg" alt="img"/>
-             </div>
-             <button className="box">LEARN MORE</button>
+                <div classname="flex">
+                <img className="imagesize" src="resources/a.jpeg" alt="img"/>
+                
+            </div>
+            <div className="education"><b>The education of the women is the best</b></div>
+            <div className="education1"><b>way to educate the society</b></div>
+           
+            <button className="box">LEARN MORE</button>
            </div>
            <div className="website">
                 <div className="about"><b>About Website</b></div>
             </div>
             <div className="flex">
-                <img className="size" src="resources/work.jpg" alt="img"/>
-                <div className="border">
-                    <div className="without"><b>Without Education</b></div>
-                     <p className="text1">Women's education is a fundamental and critical aspect of societal progress and development, as it not only empowers women individually but also has broader positive implications for families, communities, and economies, by enabling women to acquire knowledge, skills, and opportunities that can help them break free from the cycles of poverty, discrimination, and inequality, allowing them to participate fully in social</p>
-                </div>
-            </div>
-            <div className="flex">
-                <div className="border1">
-                <div className="without"><b>Importance Of Education</b></div>
-                    <p className="text2">Empowerment and Individual Development: Education equips
-                     women with knowledge, skills, and critical thinking abilities, enabling them 
-                     to make informed decisions about their lives, health, and well-being. It enhances
-                      their self-confidence, self-esteem, and agency, enabling them to actively 
-                      participate in social, economic, and political spheres.Gender Equality: Education 
-                      is a powerful tool for challenging </p>
-                </div>
-                <img className="size1" src="resources/Untitled.jpeg" alt="img"/>
-                
+                <div class="a">
+                <div className="text1">Women's education is very important because it helps girls
+                 and women learn and grow. When girls go to school and study, they become 
+                 knowledgeable and skilled. Education gives them the power to make choices in
+                  their lives and pursue their dreams. It helps them become independent and 
+                  confident. When women are educated, they can have better jobs and earn money,
+                   which can improve their lives and the lives of their families. Education also 
+                   helps women understand their rights and stand up for themselves. It allows them 
+                   to contribute to their communities and make a positive difference in the world. 
+                   That's why women's education is really valuable and should be supported.</div>
+                   </div>
+                   <div className="a">
+                  <img className="image" src="resources/Untitled.jpeg" alt="" />  
+                 </div>
             </div>
             <div className="divTag">
                 <div className="catagory"><b>Select Your Category</b></div>
@@ -56,14 +56,19 @@ function Homepage()
                     </div>
                     <div className="Material">
                     <img className="classsize" src="resources/material.jpeg" alt="img" />   
-                        <div className=""><b>Material</b></div>
+                        <div className="video"><b>Material</b></div>
                     </div>
-                   <div className="">
-                    <img src="examimage.jpeg" alt="img" />
-                    <div className=""><b>Assignments</b></div>
+                   <div className="Assignment">
+                    <img className="classsize" src="resources/exam1.jpg" alt="img" />
+                    <div className="video"><b>Assignments</b></div>
                    </div>
                  </div>
             </div>
+            <footer className="footer">
+                {/* <div className="logo"> */}
+                    <img className="titleimage1" src="resources/women.jpeg" alt="" />
+                {/* </div> */}
+            </footer>
             </div>
     )
 }

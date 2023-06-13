@@ -4,6 +4,9 @@ function Signup(){
     return(
         <div>
             <div class="flex">
+                <div className="a">
+                    <img className="loginimg" src="resources/educate.jpg" alt="" />
+                </div>
                 <div className="signupbox">
                         <img className="size" src="resources/login.png" alt="image"/>
                         <div class="title"><b>Signup</b></div>
@@ -32,8 +35,7 @@ function Signup(){
                 </div>
                 </div>  
             </div>
-        </div>
-        
+        </div> 
     )
 }
 export default Signup;

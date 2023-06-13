@@ -4,6 +4,10 @@ function Forgot()
 {
     return(
         <div>
+            <div class="flex">
+                <div className="a">
+                    <img className="loginimg" src="resources/educate.jpg" alt="" />
+                </div>
             <div class="forgotpage">
                 <img className="size"  src="resources/login.png" alt="image" />
                 <div className="title"><b>Forgot Password</b></div>
@@ -15,6 +19,7 @@ function Forgot()
                     <div className="login">
                         <a href=""><b>Login</b></a>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
