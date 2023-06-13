@@ -1,14 +1,11 @@
 .navbar
 {
     padding:1px 10px;
-     position: fixed; 
-     width:100%;
-     top:0px; 
+    position: fixed; 
+    width:100%;
+    top:0px; 
     left:0px; 
-    background-color:rgb(6, 75, 112);
-    /* border: 2px solid black; */
-    
-   
+    background-color:rgb(6, 75, 112);  
 }
 .titleimage
 {
@@ -16,7 +13,6 @@
     height:60px;
     margin-left:43px;
     border-radius: 50%;
-   
 }
 .display
 {
@@ -39,7 +35,6 @@
 }
 .imagesize
 {
-    
     width:92%;
     height:650px;
     margin-left: 50px;
@@ -49,7 +44,6 @@
 .image
 {
     margin-left:1000px;
-   
 }
 .box
 {
@@ -79,18 +73,15 @@
     height:350px;
     margin-left:1px;
     margin-top: 50px;
-
 }
 .flex
 {
     display:flex;
-    /* border:2px solid black; */
     margin-left:120px;
     margin-right: 120px;
 }
 .border
 {
-   
     margin-top:100px;
     background-color: white;
     width:645px;
@@ -98,8 +89,6 @@
     position: absolute;
     top:790px;
     left:630px;
-    border: 2px solid black;
-    
 }
 .without
 {
@@ -116,7 +105,6 @@
     margin-bottom: 20px;
     margin-right: 20px;
     line-height: 30px; 
-    border: 2px solid black;
 }
 .border1
 {
@@ -128,34 +116,25 @@
     top:1250px;
     left:80px;
     background-color: white;
-    border: 2px solid black;
-   
-   
 }
 .text2
 {
-   
     margin-left: 20px;
     margin-top: 20px;
     font-size: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
     line-height: 30px;
-    border: 2px solid black;
-   
-   
 }
 .size1
 {
     width:630px;
     height:360px;
     margin-left:600px;
-    margin-top: 90px;
-    
+    margin-top: 90px;   
 }
 .divTag
 {
-    
     padding:10px 10px;
     background-color:aliceblue;
     margin-top:10px;
@@ -163,7 +142,6 @@
 }
 .catagory
 {
-    /* border:2px solid black; */
     padding:10px 10px;
     text-align: center;
     margin:10px 560px 10px 560px;
@@ -173,44 +151,40 @@
 .flex1
 {
     padding:10px 10px;
-    border:2px solid black;
     margin-left:50px;
     margin-right: 50px;
-   
-
 }
 .classes
 {
     width:200px;
     height:100px;
-    border:2px solid black;
     margin-left: 50px;
     margin-top:20px;
     font-family: 30px;
     width:250px;
     height:150px;
-    background:linear-gradient(to right ,rgb(4, 4, 110),blue,darkblue) ;
+}
+.videosize
+{
+    width:250px;
+    height:150px;
 }
 .Material
 {
     padding:10px 10px;
-    border:2px solid black;
     margin-left:20px;
 }
 .assignments
 {
     padding:10px 10px;
-    border:2px solid black;
 }
 .totalbox
 {
     margin-left:20px;
-    border:2px solid black;
     display:flex;
 }
 .video
 {
-    font-size:25px;
-    margin-top:40px;
-  
+    font-size: 20px;
+    padding:10px 10px;
 }

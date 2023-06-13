@@ -18,10 +18,8 @@ body
 }
 .margin
 {
-   
     margin-top:10px;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;  
 }
 .title
 {
@@ -39,8 +37,7 @@ input
     margin-bottom:15px;
     width:280px;
     margin-left:10px;
-    margin-top: 30px;
-   
+    margin-top: 30px;  
 }
 .button
 {

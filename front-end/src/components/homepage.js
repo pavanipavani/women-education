@@ -6,7 +6,7 @@ function Homepage()
         <div>
            <nav className="navbar">
                 <div className="display">
-                    <img className="titleimage" src="resources/women.jpeg" alt="image" />
+                    <img className="titleimage" src="resources/women.jpeg" alt="img" />
                     <div class="title">
                         <span className="text"><b>HOME</b></span>
                         <span className="text"><b>VIDEOS</b></span>
@@ -18,7 +18,7 @@ function Homepage()
            </nav>
            <div className="margin">
             <div classname="flex">
-             <img className="imagesize" src="resources/a.jpeg" alt="image"/>
+             <img className="imagesize" src="resources/a.jpeg" alt="img"/>
              </div>
              <button className="box">LEARN MORE</button>
            </div>
@@ -26,7 +26,7 @@ function Homepage()
                 <div className="about"><b>About Website</b></div>
             </div>
             <div className="flex">
-                <img className="size" src="resources/work.jpg" alt="image"/>
+                <img className="size" src="resources/work.jpg" alt="img"/>
                 <div className="border">
                     <div className="without"><b>Without Education</b></div>
                      <p className="text1">Women's education is a fundamental and critical aspect of societal progress and development, as it not only empowers women individually but also has broader positive implications for families, communities, and economies, by enabling women to acquire knowledge, skills, and opportunities that can help them break free from the cycles of poverty, discrimination, and inequality, allowing them to participate fully in social</p>
@@ -42,7 +42,8 @@ function Homepage()
                       participate in social, economic, and political spheres.Gender Equality: Education 
                       is a powerful tool for challenging </p>
                 </div>
-                <img className="size1" src="resources/Untitled.jpeg" alt="image"/>
+                <img className="size1" src="resources/Untitled.jpeg" alt="img"/>
+                
             </div>
             <div className="divTag">
                 <div className="catagory"><b>Select Your Category</b></div>
@@ -50,14 +51,17 @@ function Homepage()
             <div className="flex1">
                 <div className="totalbox">
                     <div className="classes">
-                        <div className="video"><b>Videos</b></div>                
+                       <img className="videosize" src="resources/c-programming.png" alt="img" />  
+                       <div className="video"><b>Videos</b></div>             
                     </div>
                     <div className="Material">
-                        <div className=""><b></b></div>
+                    <img className="classsize" src="resources/material.jpeg" alt="img" />   
+                        <div className=""><b>Material</b></div>
                     </div>
-                    <div className="assignments">
-                        <img className="classsize" src="resources/blue.jpg" alt="image" />   
-                 </div>
+                   <div className="">
+                    <img src="examimage.jpeg" alt="img" />
+                    <div className=""><b>Assignments</b></div>
+                   </div>
                  </div>
             </div>
             </div>
