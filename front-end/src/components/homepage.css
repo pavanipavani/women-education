@@ -35,15 +35,12 @@
 }
 .imagesize
 {
-    width:92%;
-    height:650px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top:15px;
+    width:100%;
+    height:690px;
+    margin-top:13px;
 }
 .image
 {
-   
     width:590px;
     height:350px;
     border-radius: 5px;
@@ -51,11 +48,15 @@
 .box
 {
     position: absolute;
-    top:500px;
-    left:130px;
-    width:150px;
-    height:40px;  
+    top:400px;
+    left:80px;
+    width:180px;
+    height:30px; 
+    padding-top: 8px;
+    text-align: center; 
     border-radius: 5px; 
+    background-color: aliceblue;
+    border: 1px solid black;
 }
 .website
 {
@@ -123,16 +124,17 @@
 }
 .a
 {
-    /* border:2px solid black; */
     padding:10px 10px;
     width:700px;
     height:350px;
 }
 .text1
 { 
-    font-size:20px;
-    line-height: 35px;
+    font-size:19px;
+    line-height: 30px;
     width:690px;
+    margin-left:20px;
+    margin-top: 20px;
 }
 .flex1
 {
@@ -144,7 +146,6 @@
 {
     width:300px;
     height:300px;
-   
     margin-left:150px;
     background-color: rgb(164, 243, 205);
 }
@@ -153,21 +154,19 @@
     width:280px;
     height:200px;
     margin-top:10px;
+    margin-left: 10px;
 }
 .Material
 {
     width:300px;
     height:300px;
-   
     margin-left:30px;
     background-color: rgb(164, 243, 205);
-   
 }
 .Assignment
 {
     width:300px;
     height:300px;
-   
     margin-left:30px;
     background-color: rgb(164, 243, 205);
 }
@@ -180,42 +179,113 @@
 {
     font-size: 20px;
     padding:10px 10px;
+  text-align: center;
 }
 .education
 {
     position: absolute; 
-    top:160px;  
-    left:100px; 
+    top:140px;  
+    left:400px; 
     font-size: 28px;
     line-height: 40px;
-    color:white;
+    color:black;
 }
 .education1
 {
     position: absolute; 
-    top:200px;  
-    left:100px; 
+    top:170px;  
+    left:80px; 
     font-size: 28px;
     line-height: 40px;
-    color:white;  
+    color:black; 
 }
 .classsize
 {
     margin-top: 10px;
     width:280px;
-    height:200px;
-    
+    height:200px;  
+    margin-left: 10px;
 }
 .footer
 {
     padding:10px 10px;
-    border:2px solid black;
-    margin-top:20px;
+    background-color:rgb(6, 75, 112); 
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 .titleimage1
 {
     width:60px;
     height:60px;
-    margin-left:-100px;
+    margin-top: 20px;
     border-radius: 50%;
+    margin-left: 43px;
+}
+.title1
+{
+    margin-left:350px;
+    margin-top:40px;
+    /* border:2px solid black; */
+    display:flex;
+    
+}
+.text2
+{
+    margin-left:30px;
+    width:150px;
+    height:25px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius:30px;
+    color:white; 
+    font-size: 18px;
+}
+.b
+{
+    margin-left:250px;
+    font-size: 25px;
+    color:brown;
+}
+.display1
+{
+    display:flex;
+    margin-left: 550px;
+    margin-top: 20px;
+}
+.footersignup
+{
+    width:110px;
+    height:25px;
+    padding-top: 5px;
+    border:2px solid black;
+    margin-left: 50px;
+    border-radius: 30px;
+    text-align: center;
+    background-color:rgb(181, 181, 9);
+    color: black;
+}
+.line
+{
+    font-size:20px;
+    color:white;
+    left:0px;
+}
+.another
+{
+    margin-left: 550px;
+}
+.connectus
+{
+    margin-left: 680px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: red;
+}
+.googlesize
+{
+    width:40px;
+    height: 40px;
+    margin-left:40px;
+    border-radius: 50px;
+    margin-top: 30px;
 }

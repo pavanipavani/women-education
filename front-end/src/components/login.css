@@ -7,9 +7,8 @@ body
     padding:50px 10px;
     background-color:rgb(122, 146, 66);
     height:400px;
-    margin-top: 10px;
-    margin-left: px;   
-    width:350px;
+    margin-top: 10px;   
+    width:320px;
 }
 .flex
 {
@@ -24,13 +23,14 @@ body
 {
     width:100px;
     height:100px;
-   
-    border-radius: 50%;
+    margin-left: 120px;
+    border-radius: 50%; 
+    margin-top: -29px;
 }
 .title
 {
     text-align: center;
-    font-size: 25px;
+    font-size: 23px;
 }
 .text
 {
@@ -47,20 +47,19 @@ input
 {
     padding:8px 10px;
     margin-left:5px;
-    width:250px;
+    width:280px;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .button
 {
     width:150px;
     height:35px;
     border-radius: 30px;
-    margin-left:10px;
+    margin-left:90px;
     margin-top:10px;
     background-color:rgb(120, 89, 4) ;
 }
-
 .pass
 {
     margin-left: 10px;
@@ -72,12 +71,12 @@ input
 }
 .user
 {
-    margin-left: 130px;
-    margin-top: 10px;
+    margin-left: 180px;
+    margin-top: px;
 }
 .connect
 {
-    margin-left: 10px;
+    margin-left: 80px;
     font-size: 15px;
     margin-top:10px;
     color:brown;
@@ -97,7 +96,7 @@ input
 {
     width:30px;
     height:30px;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 

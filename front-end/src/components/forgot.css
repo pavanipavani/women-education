@@ -1,14 +1,13 @@
 body
 {
-    background-color:rgb(136, 101, 5) ;
+    background-color:rgb(155, 115, 6) ;
 }
 .forgotpage
 {
-    padding:50px 10px;
+    padding:10px 10px;
     background-color:rgb(122, 146, 66);
-    height:370px;
-    margin-top: 10px;
-    margin-left: px;   
+    height:450px;
+    margin-top: 10px;  
     width:330px;
 }
 
@@ -26,13 +25,17 @@ body
     width:500px;
     height:470px;
 }
-.size
+.girlimage
 {
     width:100px;
     height:100px;
-    margin-left:20px;
-    border-radius: 50%;
+    border-radius: 50%;   
+    background-image: none;
+    margin-left:120px;
+    margin-top: 20px;
+    
 }
+
 .margin
 {
     margin-top:10px;
@@ -61,9 +64,10 @@ input
 width:150px;
 height:35px;
 border-radius: 30px;
-margin-left:20px;
+margin-left:90px;
 margin-top:2px;
 margin-bottom: 10px;
+background-color:rgb(120, 89, 4) ;
 
 }
 .login

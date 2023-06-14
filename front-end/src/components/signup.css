@@ -1,6 +1,6 @@
 body
 {
-     background-color:rgb(120, 89, 4) ;
+     background-color:rgb(142, 107, 9) ;
 }
 
 .signupbox
@@ -9,7 +9,8 @@ body
     background-color:rgb(122, 146, 66);
     height:570px;
     margin-top: 10px;
-     margin-left: px;   
+    width:330px;
+    /* margin:10px 600px 10px 10px; */
 }
 .margin
 {
@@ -37,6 +38,7 @@ input
     border-radius: 10px;
     margin-bottom:15px;
     width:290px; 
+    margin-left: 10px;
 }
 .flex
 {
@@ -56,14 +58,16 @@ input
 {
     width:100px;
     height:100px;
-    border-radius: 50%;
+    border-radius: 50%; 
+    margin-left: 120px;
+    margin-top: 10px;
 }
 .button
 {
     width:150px;
     height:35px;
     border-radius: 30px;
-    margin-left:20px;
+    margin-left:70px;
     margin-top:2px;
     background-color:rgb(120, 89, 4) ;
     color:black;
@@ -75,7 +79,7 @@ input
 }
 .connect
 {
-    margin-left: 30px;
+    margin-left: 80px;
     font-size: 15px;
     margin-top:10px;
     color:brown;
@@ -103,5 +107,5 @@ input
     font-size:20px;
 }
 .login{
-    margin-left:10px;
+    margin-left:100px;
 }

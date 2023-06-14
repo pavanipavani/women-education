@@ -21,18 +21,20 @@ function Homepage()
                 <img className="imagesize" src="resources/a.jpeg" alt="img"/>
                 
             </div>
-            <div className="education"><b>The education of the women is the best</b></div>
-            <div className="education1"><b>way to educate the society</b></div>
+            {/* <div className="education"><b>The education of the women is the best</b></div> */}
+            {/* <div className="education1"><b>way to educate the society</b></div> */}
+            {/* <div className="box"><b>Learn more</b></div> */}
            
-            <button className="box">LEARN MORE</button>
+            
            </div>
            <div className="website">
                 <div className="about"><b>About Website</b></div>
             </div>
             <div className="flex">
                 <div class="a">
+                    <div className="b"><b>Women education</b></div>
                 <div className="text1">Women's education is very important because it helps girls
-                 and women learn and grow. When girls go to school and study, they become 
+                 and women learn <br />and grow. When girls go to school and study, they become 
                  knowledgeable and skilled. Education gives them the power to make choices in
                   their lives and pursue their dreams. It helps them become independent and 
                   confident. When women are educated, they can have better jobs and earn money,
@@ -65,9 +67,26 @@ function Homepage()
                  </div>
             </div>
             <footer className="footer">
-                {/* <div className="logo"> */}
-                    <img className="titleimage1" src="resources/women.jpeg" alt="" />
-                {/* </div> */}
+                 <div className="display">
+                 <img className="titleimage1" src="resources/women.jpeg" alt="img" />
+                     <div class="title1">
+                        <div className="text2"><b>videos</b></div>
+                        <div className="text2"><b>Material</b></div>
+                        <div className="text2"><b>Assignment</b></div>
+                    </div>
+                </div>
+                <div className="display1">
+                    <div className="footersignup"><b>Signup</b></div>
+                    <div className="footersignup"><b>Login</b></div>
+                </div>  
+                <div className="line"><b>_______________________________________________________________________________________________________________________________________________</b></div> 
+                <div className="connectus"><b>__ connect us __</b></div>
+                <div className="another">
+                        <img className='googlesize' src="resources/Google.png" alt="img" />
+                        <img className='googlesize' src="resources/Linkedin.png" alt="img" />
+                        <img className='googlesize' src="resources/twitter.png" alt="img" />
+                        <img className='googlesize' src="resources/facebook.png" alt="img" />
+                </div>
             </footer>
             </div>
     )

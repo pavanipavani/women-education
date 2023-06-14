@@ -9,7 +9,9 @@ function Forgot()
                     <img className="loginimg" src="resources/educate.jpg" alt="" />
                 </div>
             <div class="forgotpage">
-                <img className="size"  src="resources/login.png" alt="image" />
+           
+               <img className="girlimage" src="resources/login.png" alt="img" /> 
+           
                 <div className="title"><b>Forgot Password</b></div>
                 <div className="margin">
                     <input type="text" placeholder="Username" />
@@ -17,7 +19,7 @@ function Forgot()
                     <input type="password" placeholder="conform password" />
                     <button className="button">Update</button>
                     <div className="login">
-                        <a href=""><b>Login</b></a>
+                        <a href="google.com"><b>Login</b></a>
                     </div>
                 </div>
                 </div>
