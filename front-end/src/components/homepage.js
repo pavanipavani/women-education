@@ -40,15 +40,10 @@ function Homepage()
            <div className="flex">
                 <div class="c">
                 <div className="b"><b>Women education</b></div>
-                <div className="text4">Women's education is very important because it helps girls
-                 and women learn <br />and grow. When girls go to school and study, they become 
-                 knowledgeable and skilled. Education gives them the power to make choices in
-                  their lives and pursue their dreams. It helps them become independent and 
-                  confident. When women are educated, they can have better jobs and earn money,
-                   which can improve their lives and the lives of their families. Education also 
-                   helps women understand their rights and stand up for themselves. It allows them 
-                   to contribute to their communities and make a positive difference in the world. 
-                   That's why women's education is really valuable and should be supported.</div>
+                <div className="text4">Women's education is very important because it helps girls and women learn .Education empowers them to make choices in their lives and pursue their dreams. This helps them to be independent and self-confident.
+   In India, the literacy rate, including the female literacy rate, is very low in rural areas and in some urban areas. Literacy rate in rural India is 67.77% and in urban India is 84.11%. In rural areas many girls do not study after marriage because their family does not allow them to go to college.
+Many women by providing online education on this website
+Through this website they can complete their education in Open University.</div>
                    </div>
                    <div className="d">
                   <img className="image" src="resources/laptop.jpg" alt="" />  
@@ -57,8 +52,6 @@ function Homepage()
            </div>
            <div className="border1">
                 <div className="select"><b>Select your category</b></div>
-            </div>
-            <div className="border2">
                 <div className="totalbox">
                     <div className="classes">
                        <img className="videosize" src="resources/c-programming.png" alt="img" />  
@@ -72,22 +65,23 @@ function Homepage()
                     <img className="classsize" src="resources/exam2.jpg" alt="img" />
                     <div className="video"><b>Assignments</b></div>
                    </div>
-                 
             </div>
+            
+            </div>
+            <div className="signupimg">
+                <img className="imagesignup" src="resources/signupimage.png" alt="" />
+                <div className="educate"><b>Anyone can learn for free on educate girls Sign-up now</b></div>
+                <button className="signupbutton"><b>Sign-up Now for free</b></button>
             </div>
             <footer className="footer">
                  <div className="display">
-                 <img className="titleimage1" src="resources/women.jpeg" alt="img" />
                      <div class="title1">
                         <div className="text5"><b>videos</b></div>
                         <div className="text5"><b>Material</b></div>
                         <div className="text5"><b>Assignment</b></div>
+                        <div className="text5"><b>About us</b></div>
                     </div>
-                </div>
-                <div className="display1">
-                    <div className="footersignup"><b>Signup</b></div>
-                    <div className="footersignup"><b>Login</b></div>
-                </div>  
+                </div> 
                 <div className="line"><b>_______________________________________________________________________________________________________________________________________________</b></div> 
                 <div className="connectus"><b>__ connect us __</b></div>
                 <div className="another">

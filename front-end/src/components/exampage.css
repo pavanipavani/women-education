@@ -1,0 +1,123 @@
+.navbar
+{
+    width:100%;
+    height:70px;
+    background-color: white; 
+    position: fixed;
+    left:0px;
+    top:0px;
+   
+}
+.titleimage
+{
+    width:90px;
+    height:70px;
+    margin-left: 100px;
+}
+.display
+{
+    display: flex;
+}
+.title
+{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.search1
+{
+     margin-left: 600px;
+     margin-top:23px;
+    
+}
+.search
+{
+    width:400px;
+    height:28px;
+    margin-left: 10px;
+    margin-top: 17px;
+    color:black;
+    font-size:20px;
+    text-align:center;
+    border-radius: 10px;
+}
+.searchsize
+{
+    width:40px;
+    height:33px;
+    border-radius: 10px;
+}
+.searchbox
+{
+    
+    width:40px;
+    height:30px;
+    margin-top:15px;
+    border-radius: 10px;
+    margin-left: 5px;
+    /* border: 1px solid black; */
+}
+.nav
+{
+    width:100%;
+    height:45px;
+    position: fixed;
+    left:0px;
+    background-color:rgb(191, 205, 246);  
+}
+.margin
+{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.text
+{
+    margin-left: 80px;
+    font-size: 15px;
+    color:black;
+}
+.a
+{
+    margin-left: 493px;
+    margin-top: 20px;
+}
+.signup
+{
+    padding:6px; 
+    font-size: 15px;
+    margin-top: 6px;
+    width:108px;
+    border-radius: 30px;
+}
+.login
+{
+    padding:6px; 
+    font-size: 15px;
+    margin-top: 6px;
+    width:108px;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+.box
+{
+    width:100%;
+    height:680px;
+    border:2px solid black;
+    margin-top: 118px;
+    display:flex;
+}
+.answer
+{
+    width:80%;
+    height:600px;
+    border: 2px solid black;
+}
+.question
+{
+    width:20%;
+    height:600px;
+    border: 2px solid black;
+}
+.questiondetails
+{
+    
+}
