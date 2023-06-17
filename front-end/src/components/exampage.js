@@ -18,6 +18,7 @@ function Assignment(){
                     <span className="text"><b>VIDEOS</b></span>
                     <span className="text"><b>MATERIAL</b></span>
                     <span className="text"><b>ASSIGNMENT</b></span>
+                    <span className="text"><b>ABOUT US</b></span>
                     </span>
                     <span className="a">
                         <button className="signup">signup</button>

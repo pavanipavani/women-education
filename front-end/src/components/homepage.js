@@ -19,6 +19,7 @@ function Homepage()
                     <span className="text"><b>VIDEOS</b></span>
                     <span className="text"><b>MATERIAL</b></span>
                     <span className="text"><b>ASSIGNMENT</b></span>
+                    <span className="text"><b>ABOUT US</b></span>
                     </span>
                     <span className="a">
                         <button className="signup">signup</button>
@@ -27,9 +28,11 @@ function Homepage()
            </div>
            </nav>
            <div id="small"></div>
-           <div className="titletext"><b>Dive in and start learning</b></div>
-            <div className="text1"><b>The education of the women is the best </b></div>
-            <div className="text2"><b> way to educate the society</b></div>
+           {/* <div className="titletext"><b>Dive in and start learning</b></div> */}
+            <div className="text1">The education of the women is the best</div>
+            <div className="text2"> way to educate the society</div>
+            <div className="text3">Develop a passion for learning.if you do,</div>
+            <div className="text6"> you will never cease to grow</div>
            <div className="box">
             <button className="button">Learn More</button>
            </div>
@@ -55,15 +58,20 @@ Through this website they can complete their education in Open University.</div>
                 <div className="totalbox">
                     <div className="classes">
                        <img className="videosize" src="resources/c-programming.png" alt="img" />  
-                       <div className="video"><b>Videos</b></div>             
+                       <div className="video"><b>Videos</b></div>   
+                       <div className="video1">Explore C language topics with helpful videos to boost your skills.</div>          
                     </div>
                     <div className="Material">
                     <img className="classsize" src="resources/material.jpeg" alt="img" />   
                         <div className="video"><b>Material</b></div>
+                        <div className="video1">Read simplified materials to enhance your skills and understanding.</div>          
+                    
                     </div>
                    <div className="Assignment">
                     <img className="classsize" src="resources/exam2.jpg" alt="img" />
                     <div className="video"><b>Assignments</b></div>
+                    <div className="video1">Take an exam to assess and test your skills.</div>          
+                    
                    </div>
             </div>
             
