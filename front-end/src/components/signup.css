@@ -1,94 +1,81 @@
-body
-{
-     background-color:rgb(142, 107, 9) ;
-}
 
 .signupbox
 {
-    padding:0px 10px;
-    background-color:rgb(122, 146, 66);
-    height:570px;
-    margin-top: 10px;
-    width:330px;
-    /* margin:10px 600px 10px 10px; */
+   
+    background-color:rgb(247, 246, 244);
+    height:500px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 .margin
 {
-    margin-left:1px;
-    margin-top:5px; 
+    width:300px;
+    height:400px;
+    margin: 65px 55px 30px 40px;
 }
-.login
-{
-    margin-left: 120px;
-    font-size: 15px;
-    margin-top:10px;
-}
-.title
-{
-    text-align: center;
-    margin-top: 5px;
-    font-size: 20px;  
-}
+
 input
 {
     display:flex;
     flex-wrap: wrap;
     font-size:14px;
-    padding:8px 10px;
-    border-radius: 10px;
+    padding:10px 10px;
+    border-radius: 5px;
     margin-bottom:15px;
-    width:290px; 
-    margin-left: 10px;
+    width:270px; 
+    margin-top: 20px;
+    background-color: rgb(253, 252, 251);
 }
 .flex
 {
-    margin:100px 290px 10px 290px;
+    margin:100px 290px 100px 200px;
     display:flex; 
+    border: 20px solid rgb(172, 236, 233);
+    width:900px;
 }
 .a
 {
-    padding:10px 1px;
+    width:550px;
+    height:500px;
+    border-top-left-radius:20px;
+    border-bottom-left-radius: 20px;
 }
-.loginimg
+.signupimg
 {
+    height:500px;
     width:500px;
-    height:570px;
-}
-.size
-{
-    width:100px;
-    height:100px;
-    border-radius: 50%; 
-    margin-left: 120px;
-    margin-top: 10px;
 }
 .button
 {
-    width:150px;
-    height:35px;
+    width:120px;
+    height:45px;
     border-radius: 30px;
-    margin-left:70px;
+    margin-left:90px;
     margin-top:2px;
-    background-color:rgb(120, 89, 4) ;
-    color:black;
+    color:white;
+    font-size: 17px;
+    background-color:rgb(47, 4, 145);
 }
 .button:hover
 {
     background-color:rgb(65, 10, 110);
     color:white;
 }
-.connect
+.login
 {
-    margin-left: 80px;
-    font-size: 15px;
-    margin-top:10px;
-    color:brown;
+    margin-left: 50px;
+    margin-top: 10px;
 }
-
+.or
+{
+    margin-left: 130px;
+    font-size: 25px;
+    margin-top:10px;
+}
 .display
 {
     display: flex;
-    margin-left: 40px;
+    margin-left: 30px;
     margin-top: 20px;
 }
 .imagesize
@@ -105,7 +92,4 @@ input
 {
     color:rgb(165, 15, 135);
     font-size:20px;
-}
-.login{
-    margin-left:100px;
 }

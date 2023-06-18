@@ -5,11 +5,10 @@ function Signup(){
         <div>
             <div class="flex">
                 <div className="a">
-                    <img className="loginimg" src="resources/educate.jpg" alt="" />
+                  <img className="signupimg" src="resources/course.png" alt="" />
                 </div>
                 <div className="signupbox">
-                        <img className="size" src="resources/login.png" alt="img"/>
-                        <div class="title"><b>Signup</b></div>
+                        
                         <div className='margin'>
                         
                         <input type="text" placeholder="Name" />
@@ -20,12 +19,11 @@ function Signup(){
                        
                         <input type="password" placeholder='password' />
                         
-                        <input type="number" placeholder='Phone Number' />
-                        <button class="button">Signup</button>
-                        <div className='login'>already have an account 
-                            <a className="loginpage"href="google.com">Login</a>
-                        </div>
-                    <div className='connect'><b>___Or Connect With___</b></div>
+                       
+                        <button class="button">Sign up</button>
+                        <div className='login'>Already heve an account<a href="google.com">Login</a></div>
+                        <div className='or'>OR</div>
+                    
                     <div className='display'>
                         <img className='imagesize' src="resources/Google.png" alt="img" />
                         <img className='imagesize' src="resources/Linkedin.png" alt="img" />
