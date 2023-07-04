@@ -3,7 +3,8 @@ import './units.css';
 const Backend = () =>{
     const [data,setData] = useState([]);
     const [topic,setTopic] = useState([]);
-    const [content,setContent] = useState([]);
+    const [subtopic,setSubtopic] = useState([]);
+    // const [content,setContent] = useState([]);
     useEffect(()=>{
         fetchData();
     },[])
@@ -24,14 +25,23 @@ const Backend = () =>{
              console.log(res);
          });
     }
-    const fetchDATA = () =>{
-        fetch("http://localhost:5050/content").then ((res) =>{
+    const fetchsubtopicData = () =>{
+        fetch("http://localhost:5050/subtopic").then((res) =>{
             return res.json();
-        }).then ((res) =>{
-            setContent(res);
-            console.log(res);
-        });
+        
+         }).then ((res)=>{;
+            setSubtopic(res);
+             console.log(res);
+         });
     }
+    // const fetchDATA = () =>{
+    //     fetch("http://localhost:5050/content").then ((res) =>{
+    //         return res.json();
+    //     }).then ((res) =>{
+    //         setContent(res);
+    //         console.log(res);
+    //     });
+    // }
     return (<div>
         {
             data?.map(({course_NAME}) => 
@@ -46,14 +56,24 @@ const Backend = () =>{
             </div>
             )
         }
-       {
+        {
+            subtopic.map(({subtopic_NAME})=>
+            <div className="subtopic">
+                <div>{subtopic_NAME}</div>    
+            </div>
+            )
+        }
+       {/* {
              topic.map(({Content,video})=>
              <div className="units">
                  <div>{Content}</div>
-                 {video}
+                 <video width="640" height="480" controls>
+                <source src="path/to/video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+                </video>
              </div>
              )
-        } 
+        }  */}
     </div>
     )
 }

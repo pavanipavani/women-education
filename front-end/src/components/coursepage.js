@@ -6,13 +6,15 @@ import './coursepage.css';
 const Backend = () =>{
     const[data,setData] = useState([]);
     const[topic,setTopic] = useState([]);
+    const[subtopic,setSubtopic] = useState([]);
+    const[click,setClick]=useState(false);
 
     function courseDisplay(){
         fetch("http://localhost:5050/data").then((res) =>{
             return res.json();
         }).then ((res)=>{
             setData(res);
-            console.log(res);
+            // console.log(res);
 
         })
     }
@@ -21,8 +23,20 @@ const Backend = () =>{
             return res.json();
         }).then ((res) =>{
             setTopic(res);
-            console.log(res);
+            // console.log(res);
         })
+    }
+    function subTopicDisplay(){
+        setClick(!click);
+        if(click)
+        {
+            fetch ("http://localhost:5050/subtopic").then((res) =>{
+                return res.json();
+            }).then ((res) =>{
+                setSubtopic(res);
+                console.log(res);
+            })
+        }
     }
 
     return(
@@ -33,11 +47,9 @@ const Backend = () =>{
                         <img className="imagesize" src="resources/jtdimage.jpeg" alt="img" />
                     </div>
                 
-                     <div className="navbar" onClick={() => courseDisplay()}>
+                     <div className="navbar" >
                     <img className="imagesize1" src="resources/livebook.jpg" alt="img" onClick={()=>courseDisplay()}/>
-                    {/* <img className="imagesize1" src="resources/jtdimage.jpeg" alt="img" /> */}
                     </div>
-               
                     <div className="navbar1">
                         <img className="imagesize2" src="resources/signupimage.png" alt="img" />   
                     </div>
@@ -65,11 +77,28 @@ const Backend = () =>{
                         <div className="details">
                             {
                                 topic.map(({topic_NAME}) =>
-                                    <div className='unitsinfo'>
+                                    <div className='unitsinfo' onClick={() => subTopicDisplay()}>
                                         <div>
                                             <img className="daimondsize" src="resources/diamond.jpg" alt="img" />
                                         </div>
-                                        <div className='unitsinformation'>{topic_NAME}</div>
+                                        <div className='unitsinformation'  >
+                                            
+                                         {topic_NAME}
+                                         {
+                                         click?
+                                         <div>
+                                            {
+                                                subtopic.map(({subtopic_NAME}) =>
+                                                    <div className='subtopicinfo'>
+                                                        <div><img className='circlesize' src="resources/circle.png" alt="circle" /></div>
+                                                        <div className='subtopicinformation'>{subtopic_NAME}</div>
+                                                    </div>
+                                                )
+                                            }
+                                         </div>:""
+                                        }
+                                            </div>
+                                       
                                         <div className='downarrowborder'>
                                             <img className='downarrowimg' src="resources/downarrow.jpg" alt="img" />
                                         </div>
@@ -78,6 +107,7 @@ const Backend = () =>{
                             }
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>

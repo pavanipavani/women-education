@@ -131,17 +131,19 @@
     width:1060px;
     margin-left: 30px;
     border: 2px solid black;
-    height:60px; 
+
     background-color: rgb(243, 245, 246);
     display:flex;
 }
 .unitsinformation
 {
     font-size: 23px;
-    margin-left: 70px;
+    margin-left: 50px;
     margin-top: 15px;  
-    width:500px;
- 
+    width:600px;
+    min-height: 10px;
+    max-height: 1000px;
+    overflow-y: scroll;
 }
 .unitsinformation:hover
 {
@@ -153,14 +155,14 @@
     height:25px;
     background: none;
     margin-top: 15px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .downarrowborder
 {
     border: 1px solid black;
     width:20px;
     height:20px;
-    margin-left: 400px;
+    margin-left: 300px;
     margin-top: 18px;
 }
 .downarrowimg
@@ -168,3 +170,15 @@
     width:20px;
     height:20px;
 }
+.subtopicinfo{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.circlesize
+{
+    width: 25px;
+    height: 25px;
+}
+.subtopicinformation
+{}
