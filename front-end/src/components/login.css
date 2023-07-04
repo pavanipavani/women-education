@@ -1,0 +1,102 @@
+body
+{
+    background-color:rgb(136, 101, 3) ;
+}
+.loginpage
+{
+    padding:50px 10px;
+    background-color:rgb(122, 146, 66);
+    height:400px;
+    margin-top: 10px;   
+    width:320px;
+}
+.flex
+{
+    margin:100px 290px 10px 290px;
+    display:flex; 
+}
+.a
+{
+    padding:10px 1px;
+}
+.size
+{
+    width:100px;
+    height:100px;
+    margin-left: 120px;
+    border-radius: 50%; 
+    margin-top: -29px;
+}
+.title
+{
+    text-align: center;
+    font-size: 23px;
+}
+.text
+{
+    margin-top:30px;
+    font-size:20px;
+    margin-left: 15px;
+    color:black;
+}
+.margin
+{
+    margin-top: 10px; 
+}
+input
+{
+    padding:8px 10px;
+    margin-left:5px;
+    width:280px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.button
+{
+    width:150px;
+    height:35px;
+    border-radius: 30px;
+    margin-left:90px;
+    margin-top:10px;
+    background-color:rgb(120, 89, 4) ;
+}
+.pass
+{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.forgot
+{
+    text-decoration: none;
+}
+.user
+{
+    margin-left: 180px;
+    margin-top: px;
+}
+.connect
+{
+    margin-left: 80px;
+    font-size: 15px;
+    margin-top:10px;
+    color:brown;
+}
+.display
+{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.loginimg
+{
+    width:500px;
+    height:500px;
+}
+.imagesize
+{
+    width:30px;
+    height:30px;
+    margin-left: 30px;
+}
+
+

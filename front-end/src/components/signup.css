@@ -1,0 +1,95 @@
+
+.signupbox
+{
+   
+    background-color:rgb(247, 246, 244);
+    height:500px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.margin
+{
+    width:300px;
+    height:400px;
+    margin: 65px 55px 30px 40px;
+}
+
+input
+{
+    display:flex;
+    flex-wrap: wrap;
+    font-size:14px;
+    padding:10px 10px;
+    border-radius: 5px;
+    margin-bottom:15px;
+    width:270px; 
+    margin-top: 20px;
+    background-color: rgb(253, 252, 251);
+}
+.flex
+{
+    margin:100px 290px 100px 200px;
+    display:flex; 
+    border: 20px solid rgb(172, 236, 233);
+    width:900px;
+}
+.a
+{
+    width:550px;
+    height:500px;
+    border-top-left-radius:20px;
+    border-bottom-left-radius: 20px;
+}
+.signupimg
+{
+    height:500px;
+    width:500px;
+}
+.button
+{
+    width:120px;
+    height:45px;
+    border-radius: 30px;
+    margin-left:90px;
+    margin-top:2px;
+    color:white;
+    font-size: 17px;
+    background-color:rgb(47, 4, 145);
+}
+.button:hover
+{
+    background-color:rgb(65, 10, 110);
+    color:white;
+}
+.login
+{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.or
+{
+    margin-left: 130px;
+    font-size: 25px;
+    margin-top:10px;
+}
+.display
+{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.imagesize
+{
+    width:30px;
+    height:30px;
+    margin-left: 25px;
+}
+.text
+{
+    margin-left:15px;
+}
+.loginpage
+{
+    color:rgb(165, 15, 135);
+    font-size:20px;
+}
