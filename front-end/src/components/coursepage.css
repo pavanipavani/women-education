@@ -131,13 +131,12 @@
     width:1060px;
     margin-left: 30px;
     border: 2px solid black;
-
     background-color: rgb(243, 245, 246);
     display:flex;
 }
 .unitsinformation
 {
-    font-size: 23px;
+    font-weight: bold;
     margin-left: 50px;
     margin-top: 15px;  
     width:600px;
@@ -172,13 +171,25 @@
 }
 .subtopicinfo{
     display: flex;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 .circlesize
 {
     width: 25px;
     height: 25px;
+    position:absolute;
+    left:360px;
+    margin-top: 15px;
+    
 }
 .subtopicinformation
-{}
+{
+    margin-top: 15px;
+
+}
+.subtopicinformation:hover
+{
+    background-color: rgb(197, 203, 203);
+    color:black;
+}
